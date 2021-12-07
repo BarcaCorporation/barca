@@ -15,18 +15,21 @@ const IndexDropdown = () => {
       placement: "bottom-start",
     });
     setDropdownPopoverShow(true);
+    setDropdownPopoverThemeShow(false);
   };
   const closeDropdownPopover = () => {
-    setDropdownPopoverShow(false);
+    setDropdownPopoverThemeShow(false);
   };
   const openDropdownThemePopover = () => {
     createPopper(btnDropdownThemeRef.current, popoverDropdownThemeRef.current, {
       placement: "bottom-start",
     });
+    setDropdownPopoverShow(false);
     setDropdownPopoverThemeShow(true);
   };
   const closeDropdownThemePopover = () => {
     setDropdownPopoverThemeShow(false);
+    setDropdownPopoverShow(false);
   };
   return (
     <>
@@ -87,6 +90,37 @@ const IndexDropdown = () => {
             HTML/CSS
           </Link>
         <div className="h-0 mx-4 my-2 border border-solid border-blueGray-100" />
+        <span
+          className={
+            "text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-blueGray-400"
+          }
+        >
+          Blog
+        </span>
+          <Link
+            to="/auth/login"
+            className="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+          >
+            Vuepress
+          </Link>
+          <Link
+            to="/auth/login"
+            className="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+          >
+            Jekyll
+          </Link>
+          <Link
+            to="/auth/login"
+            className="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+          >
+            Hugo
+          </Link>
+          <Link
+            to="/auth/login"
+            className="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+          >
+            Wordpress
+          </Link>
       </div>
       {/* // THEMES */}
       <a
@@ -146,13 +180,7 @@ const IndexDropdown = () => {
           to="/auth/login"
           className="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
         >
-          Mammut
-        </Link>
-        <Link
-          to="/auth/login"
-          className="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-        >
-          Magon
+          Mamute
         </Link>
         <Link
           to="/auth/login"
@@ -214,14 +242,7 @@ const IndexDropdown = () => {
           Marfin API
         </Link>
       </div>
-      {/* // EXAMPLES */}
-      
-
-
-
-
-
-
+    
     </>
   );
 };
