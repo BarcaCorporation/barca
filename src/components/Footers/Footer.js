@@ -103,7 +103,7 @@ export default function Footer() {
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                         href="https://github.com/project-barca"
                       >
-                        Barca Open Source
+                        Barca Free
                       </a>
                     </li>
                     <li>
@@ -128,6 +128,14 @@ export default function Footer() {
                         href="https://github.com/project-barca"
                       >
                         Barca Plus
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
+                        href="https://github.com/project-barca"
+                      >
+                        Download
                       </a>
                     </li>
                   </ul>
@@ -255,7 +263,7 @@ export default function Footer() {
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                         href="https://download.barca.io/desktop"
                       >
-                        Barca Desktop
+                        Barca Web Cloud
                       </a>
                     </li>
                     <li>
@@ -263,7 +271,7 @@ export default function Footer() {
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                         href="https://download.barca.io/sdk"
                       >
-                        BWC SDK
+                        Barca Market
                       </a>
                     </li>
                     <li>
@@ -271,7 +279,7 @@ export default function Footer() {
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                         href="https://download.barca.io/cli"
                       >
-                        Barca CLI
+                        Barca Acadêmico
                       </a>
                     </li>
                     <li>
@@ -279,7 +287,7 @@ export default function Footer() {
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                         href="https://download.barca.io/engine"
                       >
-                        Barca Engine
+                        Barca Store
                       </a>
                     </li>
                     <li>
@@ -287,7 +295,15 @@ export default function Footer() {
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                         href="https://download.barca.io/engine"
                       >
-                        Download
+                        Barca Cine
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
+                        href="https://download.barca.io/engine"
+                      >
+                        Barca AI
                       </a>
                     </li>
                   </ul>
